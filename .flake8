@@ -1,0 +1,12 @@
+[flake8]
+ignore = D100
+disable-noqa = True
+paths = 
+    ./pep_parse
+max-complexity = 10
+max-line-length = 79
+exclude =
+    tests/
+  ./pep_parse/pep_parse/settings.py
+  ./pep_parse/pep_parse/middlewares.py
+  __init__.py
